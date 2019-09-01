@@ -1,0 +1,13 @@
+.TableTT th {
+    border: 5px solid black;
+    border-style: dashed;
+    height: 5em;
+    width: 10%;
+    padding: 0;
+    text-align: center;
+}
+.ImgPersonal {
+    width: 40%;
+    height: 10em;
+    margin: 1em 0 1em 0;
+}
