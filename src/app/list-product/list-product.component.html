@@ -24,7 +24,7 @@
         <tbody>
           <tr *ngFor='let a of ListProduct'>
             <th scope="col"><img src="assets\{{a.imageUrl}}" class="ImageProduct" *ngIf='isShow'></th>
-            <th scope="col">{{a.productName}}</th>
+           <th scope="col"><a [routerLink] = "['/products',a.productID]">{{a.productName}}</a></th>
             <th scope="col">{{a.productCode}}</th>
             <th scope="col">{{a.productDate}}</th>
             <th scope="col">{{a.price}}</th>

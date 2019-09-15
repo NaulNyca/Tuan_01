@@ -1,0 +1,30 @@
+<div class="card">
+    <div class="card-header">
+        Gio Hang
+    </div>
+    <div class="card-body">
+        <table class="table">
+        <thead>
+            <tr>
+            <th scope="col"><button type="button" class="btn btn-primary">Hien Image</button></th>
+            <th scope="col">Product</th>
+            <th scope="col">Code</th>
+            <th scope="col">Available</th>
+            <th scope="col">Price</th>
+            <th scope="col">5 Star Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let a of Product'>
+            <th scope="col"><img src="assets\{{a.imageUrl}}" class="ImageProduct"></th>
+            <th scope="col"><a [routerLink] = "['/products',a.productId]">{{a.productName}}</a></th>
+            <th scope="col">{{a.productCode}}</th>
+            <th scope="col">{{a.productDate}}</th>
+            <th scope="col">{{a.price}}</th>
+            <th scope="col"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></th>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+</div>
+    

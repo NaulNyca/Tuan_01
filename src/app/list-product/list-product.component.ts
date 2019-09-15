@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {CardService} from '../card.service';
 @Component({
   selector: 'app-list-product',
   templateUrl: './list-product.component.html',

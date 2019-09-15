@@ -1,0 +1,26 @@
+.serch {
+    width: 20%;
+}
+.serch div button {
+    width: 100%;
+    background-color: blue;
+}
+.mytable {
+    margin: 1em 0 0 0;
+}
+.detail {
+    color: blue;
+}
+.detail:hover {
+    font-size: 2em;
+    color: blue;
+}
+.delete:hover {
+    font-size: 2em;
+}
+.show {
+    margin: 1em 0 0 0;
+}
+.myNav {
+    margin: -2em 0 0 50%;
+}
