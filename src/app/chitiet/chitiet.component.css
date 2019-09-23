@@ -1,0 +1,128 @@
+.Tieude {
+    height: 10em;
+}
+.Tieude h2 {
+    color: white;
+    text-shadow: black 1px 0 2px;
+    margin: 3em 0 0 0;
+}
+.Tieude hr {
+    width: 27%;
+    color: black;
+    border-style: dotted;
+    height: 10px;
+    float: left;
+    margin: 0.3em 0 -1em 0;
+}
+.Tieude h5 {
+    margin: 0.5em 0 0 0;
+    float: left;
+}
+.Tieude img {
+    float: right;
+    height: 10em;
+    width: 40%;
+    margin: -6.2em 0 0 0;
+}
+.Menu {
+    margin: -3.8em 0 0 0;
+}
+.Menu nav {
+    width: 100%;
+    background-color: black;
+}
+.containers {
+    width: 97.5%;
+    height: 42.7em;
+    margin: 0 0 0.5em 1.25%;
+}
+.Con_1 {
+    width: 100%;
+    border: none;
+    background-color: beige;
+    padding: 4em 0 2em 5%;
+    margin: 1em 0 0 0;
+    height: 15em;
+}
+.Con_1 a {
+    width: 20%;
+}
+.Con_S {
+    width: 100%;
+}
+.Mycard {
+    width: 100%;
+    margin: 1em 0 0 0;
+    height: 8em;
+    position: relative;
+}
+.Mycard img {
+    width: 40%;
+    height: 6em;
+    margin: 1em 0 0 10%;
+}
+.Mycardbody {
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    margin: -5.5em 0 0 0;
+}
+.Mycardbody a:hover{
+    text-decoration: none;
+}
+.Myserch {
+    width: 100%;
+    margin: 2em 0 0 0;
+    height: 3em;
+}
+.MyList {
+    width: 100%;
+    margin: 1em 0 0 0;
+    height: 15em;
+}
+.Mybutton {
+    height: 1.5em;
+    padding: 0 0 0 0;
+}
+.Mybutton:hover {
+    text-decoration: none;
+    color: red;
+}
+.Mylistgroup {
+    width: 100%;
+}
+.card-body {
+    padding: 0;
+}
+.Chantrang {
+    width: 100%;
+    background-color:burlywood;
+    text-align: center;
+}
+.lgi a:hover {
+    color: blue;
+    text-decoration: none;
+}
+.mycarousel {
+    height: 30em;
+    width: 100%;
+}
+.mycarousel img {
+    height: 30em;
+    width: 100%;
+}
+.ccc {
+    float: left;
+    width: 23%;
+    margin: 1em 1% 0 1%;
+}
+.ccccc {
+    text-align: center;
+}
+.ccccc img {
+    width: 20%;
+    height: 10em;
+    margin-left: 40%;
+}
+
+

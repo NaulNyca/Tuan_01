@@ -1,0 +1,122 @@
+<div class="Tieude">
+    <h2>Online Shopping Small</h2>
+    <hr/>
+    <h5>The center point of the professional programming</h5>
+    <img src="../assets/images/header-object.png">
+</div>
+<div class="Menu">
+    <nav class="nav">
+        <a class="nav-link active" href="#"><i class='fas fa-home'></i> Trang chủ</a>
+        <a class="nav-link" href="#"><i class='fas fa-th-list'></i> Giới thiệu</a>
+        <a class="nav-link" href="#"><i class="fa fa-phone"></i> Liên hệ</a>
+        <a class="nav-link" href="#"><i class='far fa-envelope'></i> Gớp ý</a>
+        <a class="nav-link" href="#"><i class='far fa-question-circle'></i> Hỏi đáp</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Tài khoản</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <ul class="nav ml-auto">
+            <a class="nav-link" href="#">English</a>
+            <a class="nav-link" href="#">Tiếng Việt</a>
+        </ul>
+    </nav>
+</div>
+<div class="containers">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="card Con_1">
+                <h5 class="card-title">FRONT-END FRAMEWORK</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+        
+            <div class="card ccc" *ngFor = 'let p of product'>
+                <img src={{p.imgScr}} class="card-img-top imgproduct">
+                <div class="card-body">
+                    <h5 class="card-title">{{p.name}}</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary btn12" [routerLink] = "['/p.macl',p.id]">Chi tiết</a>
+                    <a class="btn btn-primary btn123" (click) = 'add()'>Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="card Mycard">
+                <div class="card-body">
+                    <img src="assets\images\shoppingcart.gif" class="card-img-top">
+                    <div class="Mycardbody">
+                        <h6>100 Items</h6>
+                        <h6>$ 56.8</h6>
+                        <a [routerLink] = "['giohang']">View card</a>
+                    </div>
+                </div>
+                <div class="Myserch">
+                    <input class="form-control" type="text" placeholder="Keywords" readonly>
+                </div>
+                <div class="MyList">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed Mybutton" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <i class='fas fa-th-list'></i> Chủng loại
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body Mylistgroup">
+                                            <ul class="list-group">
+                                                <li class="list-group-item lgi"><a href="#">Điện thoại di động</a></li>
+                                                <li class="list-group-item lgi"><a href="#">Máy tính xách tay</a></li>
+                                                <li class="list-group-item lgi"><a href="#">Máy tính để bàn</a></li>
+                                                <li class="list-group-item lgi"><a href="#">Quạt máy</a></li>
+                                                <li class="list-group-item lgi"><a href="#">Ti vi</a></li>
+                                                <li class="list-group-item lgi"><a href="#">Tủ lạnh</a></li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed Mybutton" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <i class='fas fa-th-list'></i> Nhà cung cấp
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body Mylistgroup">
+                                        <ul class="list-group">
+                                            <li class="list-group-item lgi"><a href="#">***</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed Mybutton" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <i class='fas fa-th-list'></i> Hàng đặc biệt
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body Mylistgroup">
+                                        <ul class="list-group">
+                                            <li class="list-group-item lgi"><a href="#">***</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+</div>
