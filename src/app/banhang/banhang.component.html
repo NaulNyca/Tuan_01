@@ -1,0 +1,24 @@
+<div class="card myCard">
+    <div class="card-header bg-traniarent border-success">Bán hàng giải khác</div>
+    <div class="card-body text-success">
+            <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Tên hàng</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Đơn giá</th>
+                        <th scope="col">Thành tiền</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor = "let i of items">
+                        <th scope="row"><input type="checkbox" class="form-check-input" id="exampleCheck1" [(ngModel)]="i.select" value="" [ngModelOptions]="{standalone: true}">{{i.name}}</th>
+                        <td><input type="number" class="form-control" [(ngModel)]="i.soluong" [ngModelOptions]="{standalone: true}"></td>
+                        <td>{{i.price}}</td>
+                        <td>${{ThanhTien(i.price,i.soluong)}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+    </div>
+    <div class="card-footer bg-transparent border-success">Tổng tiền: ${{TongTien()}}</div>
+</div>
