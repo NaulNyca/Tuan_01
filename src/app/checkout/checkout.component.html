@@ -1,0 +1,36 @@
+<div class="container">
+    <header class="header">
+        <h1>My Guitar Shop</h1>
+        <hr>
+    </header>
+    <aside class="col-sm-3 menu">
+        <ul>
+            <li class="mucm">Links</li>
+            <li><a [routerLink]="['/giohangguitar']">View Cart</a></li>
+            <li><a href="#">Login/Regisrer</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="mucm">Catogories</li>
+            <li><a href="#">Guitars</a></li>
+            <li><a href="#">Basses</a></li>
+            <li><a href="#">Drums</a></li>
+            <li class="mucm">Temp Link</li>
+            <li><a href="#">Admin</a></li>
+        </ul>  
+        </aside>
+        <article class="col-sm-9 list">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3>Your Order</h3>
+                            <h6>Order number: {{buyer.productname}}</h6>    
+                            <h6>Order date</h6>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+    
+        </footer>
+    </div>

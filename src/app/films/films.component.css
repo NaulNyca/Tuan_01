@@ -1,0 +1,19 @@
+.body {
+    width: 70%;
+    margin: 0 0 0 15%;
+}
+.film img {
+    width: 100%;
+    border-radius: 20px;
+}
+.film {
+    background-color: bisque;
+    border-radius: 20px;
+}
+.filmname {
+    font-size: 200%;
+    font-weight: bold;
+}
+.film h5 {
+    font-style: italic;
+}

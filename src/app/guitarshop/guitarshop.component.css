@@ -1,0 +1,50 @@
+.container {
+    position: absolute;
+    background-color:bisque;
+    padding: 2%;
+    margin: 0 0 0 12%;
+    border-radius: 2em;
+}
+.header {
+    position: relative;
+}
+.header h1{
+    color: red;
+}
+.header hr{
+    border: 2px solid red;
+    border-radius: 2em;
+}
+.menu {
+    float: left;
+    position: relative;
+}
+.menu li {
+    list-style: none;
+}
+.mucm {
+    color:DarkRed;
+    font-size: 150%;
+    font-weight: bold;
+}
+.menu a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu a {
+    margin: 0 0 0 10%;
+}
+.list {
+    float: left;
+    position: relative
+}
+.img {
+    width: 60%;
+}
+.list h3 {
+    color: darkred;
+}
+.name a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.container {
+    width: 70%;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    margin: 0 15% 0 15%;
+    padding: 2em 2% 0 2%;
+}
+.container h1 {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+.btnLuu {
+    background-color: blue;
+    border: none;
+}
+.btnHuyS {
+    background-color: red;  
+    border: none; 
+}
+.btnThem {
+    background-color: blue;
+    border: none; 
+}
+.btnHuyT {
+    background-color: red;  
+    border: none; 
+}
+.btnSua {
+    background-color: blue;
+    border: none;
+    margin: 0 2% 0 0;
+}
+.btnXoa {
+    background-color: red;  
+    border: none; 
+}

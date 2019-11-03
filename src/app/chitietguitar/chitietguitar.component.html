@@ -1,0 +1,51 @@
+<div class="container">
+    <header class="header">
+        <h1>My Guitar Shop</h1>
+        <hr>
+    </header>
+    <aside class="col-sm-3 menu">
+        <ul>
+            <li class="mucm">Links</li>
+            <li><a [routerLink]="['/giohangguitar']">View Cart</a></li>
+            <li><a href="#">Login/Regisrer</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="mucm">Catogories</li>
+            <li><a href="#">Guitars</a></li>
+            <li><a href="#">Basses</a></li>
+            <li><a href="#">Drums</a></li>
+            <li class="mucm">Temp Link</li>
+            <li><a href="#">Admin</a></li>
+        </ul>  
+        </aside>
+        <article class="col-sm-9 list">
+            <h3>{{product.productname}}</h3>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                    <img src={{product.src}} class="card-img">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">List Price: {{product.price}}</h5>
+                        <h5 class="card-title">Discount: {{product.giamgia}}%</h5>
+                        <h5 class="card-title">Your Price:{{product.yourprice}}</h5>
+                        <h5 class="soluong">
+                            Quantity:
+                            <input type="number" [(ngModel)]="soluong" [ngModelOptions]="{standalone: true}">
+                            <button type="button" class="btn btn-primary btn-lg" (click) = 'addtocard()'>Add to card</button>
+                        </h5>
+                        <h5 class="card-title">Description</h5>
+                        <p>{{product.description}}</p>
+                        <h5 class="card-title">New Feature</h5>
+                        <ul>
+                            <li *ngFor = 'let i of product.newfeature'>{{i.text}}</li>
+                        </ul>                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+    
+        </footer>
+    </div>

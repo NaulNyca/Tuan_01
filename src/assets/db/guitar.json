@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "src":"assets/images/guitar.jpg",
+        "productname":"Caravan HS-4140",
+        "price":116000,
+        "giamgia": 0,
+        "yourprice":0,
+        "soluong": 0,
+        "description":"Guitar Caravan HS-4140 là dòng sản phẩm guitar acoustic được thiết kế tinh tế cùng với âm thanh đanh, rõ nét rất thích hợp để chơi đệm hát và dòng nhạc trẻ trung.",
+        "newfeature":[
+            {
+                "text":"Giao hàng trong phạm vi 6 km trị giá 60,000 VNĐ"
+            },
+            {
+                "text":"Tặng 2 phím đàn trị giá 20,000 VNĐ."
+            },
+            {
+                "text":"Tặng ty chỉnh cần trị giá 10,000 VNĐ."
+            }
+        ],
+        "cid":1
+    },
+    {
+        "id":2,
+        "src":"assets/images/piano.jpg",
+        "productname":"Đàn guitar Takamine P1D",
+        "price":116000,
+        "giamgia": 0,
+        "yourprice":0,
+        "soluong": 0,
+        "description":"Đàn guitar Takamine P1D Tiếng đàn ngọt ngào, các chi tiết được tối ưu hóa nhờ công nghệ hiện đại, là sự trải nghiệm hoàn toàn xứng đáng cho bất cứ ai. Âm thanh cực kỳ ấm áp, độ cân bằng giữa các dải âm vang lên nhờ thân đàn Sapele với mặt gỗ tuyết tùng vùng Bắc Cực.",
+        "newfeature":[
+            {
+                "text":"Giao hàng trong phạm vi 6 km trị giá 60,000 VNĐ"
+            },
+            {
+                "text":"Tặng 2 phím đàn trị giá 20,000 VNĐ."
+            },
+            {
+                "text":"Tặng ty chỉnh cần trị giá 10,000 VNĐ."
+            }
+        ],
+        "cid":1
+    },
+    {
+        "id":3,
+        "src":"assets/images/trong.jpg",
+        "productname":"Boston GP-156 PE",
+        "price":735000000,
+        "giamgia": 0,
+        "yourprice":0,
+        "soluong": 0,
+        "description":"Đàn Piano Boston GP-156 PE âm thanh tao nhã dành cho những con người tinh te",
+        "newfeature":[
+            {
+                "text":"Giao hàng trong phạm vi 6 km trị giá 60,000 VNĐ"
+            },
+            {
+                "text":"Tặng 2 phím đàn trị giá 20,000 VNĐ."
+            },
+            {
+                "text":"Tặng ty chỉnh cần trị giá 10,000 VNĐ."
+            }
+        ],
+        "cid":2
+    }
+]
